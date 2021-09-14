@@ -1,2 +1,2 @@
-# algorithms
+# algorithm
 with Python
