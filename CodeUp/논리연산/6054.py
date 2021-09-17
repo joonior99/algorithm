@@ -4,3 +4,9 @@
 
 a, b = input().split()
 print(bool(int(a)) and bool(int(b)))
+
+a, b = map(int, input().split())
+if bool(a) and bool(b): // 'if bool(a and b) == True:'와 같다
+    print(True)
+else:
+    print(False)
