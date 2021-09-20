@@ -9,5 +9,5 @@ else:
   else:
     if n//3==3:
       print('fall')
-    else
+    else:
       print('winter')
