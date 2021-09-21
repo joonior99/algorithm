@@ -3,4 +3,4 @@
 // '-'를 제외한 주민번호 13자리를 모두 붙여 출력한다
 
 a, b = input().split('-')
-print(a,b,sep='')
+print(a, b, sep='')
