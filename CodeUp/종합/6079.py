@@ -9,4 +9,3 @@ while s<n:
   t+=1
   s+=t
 print(t)
-  
