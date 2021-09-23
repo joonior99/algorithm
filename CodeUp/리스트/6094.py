@@ -15,3 +15,6 @@ for i in range(0, n):
     min = a[i]
 
 print(min)
+
+n = int(input())
+print(min(map(int, input().split())))
