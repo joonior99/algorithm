@@ -6,6 +6,6 @@
 
 import sys // sys 모듈을 불러오면 stdin.readline() 함수를 사용할 수 있다
 t = int(sys.stdin.readline())
-for _ in range(1, n+1):
+for _ in range(t):
   a, b = map(int, sys.stdin.readline().split())
   print(a+b)
