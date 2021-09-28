@@ -10,7 +10,7 @@ n = int(input())
 num = n  // num 변수에 n을 지정
 cnt = 0
 while True:
-    sum_num = (num // 10) + (num % 10) // 각 자릿수를 더한수 // 6 + 8 = 14 84
+    sum_num = (num // 10) + (num % 10) // 각 자릿수를 더한수 // 2+6=8, 68, 6+8=14, 84 ... 
     new_num = ((num % 10) * 10) + (sum_num % 10) // 새로 만들어지는 수
     cnt += 1 // 사이클 카운트
     if new_num == n:
