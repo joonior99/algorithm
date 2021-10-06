@@ -5,9 +5,9 @@
 n = int(input())
 print(sum(map(int, input()))) // 공백없는 문자열인 점을 고려하여 map 함수로 각 자리수 int로 변환
 
-n = input()
-nums = input()
+n = input() // 11
+nums = input() // 10987654321
 total = 0
 for i in range(n):
   total += int(nums[i])
-print(total)
+print(total) // 46
