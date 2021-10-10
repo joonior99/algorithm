@@ -12,3 +12,4 @@ while n > nums_honeycomb:
   nums_honeycomb += 6*cnt // 벌집의 개수 6의 배수로 증가
   cnt += 1
 print(cnt)
+
