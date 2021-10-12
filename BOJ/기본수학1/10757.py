@@ -6,3 +6,5 @@ import sys
 
 a, b = map(int, sys.stdin.readline().split())
 print(a+b)
+
+// 파이썬은 메모리양이 정해져 있는 fixed-precision이 아닌, arbitrary-precision이어서 메모리를 유동적으로 운용할 수 
