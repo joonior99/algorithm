@@ -18,5 +18,5 @@ for _ in range(t):
   half = n//2  // 입력받은 짝수를 2로 나눈 몫을 구함
   for x in range(half, 1, -1):  // 차이가 적은 두 수를 구하기 위해서 큰 수부터 꺼낸다
     if (n-x in nums) and (x in nums): // n-x 와 x가 소수 집합에 포함 되었는지 확인
-      print(x, n-x)  // 작은수부터 출력
+      print(x, n-x)  // 작은 수부터 출력
       break
