@@ -18,6 +18,6 @@ print(day)
 import sys
 import math
 
-a, b, v = map(int, sys.stdin.readline())
+a, b, v = map(int, sys.stdin.readline().split())
 day = (v-b)/(a-b) // 정상에 한번 도달하면 밤에 미끄러지지 않는 것을 고려해준다
 print(math.ceil(day))
