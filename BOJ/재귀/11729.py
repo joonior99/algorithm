@@ -26,3 +26,13 @@ move = [] // 이동 경로를 담을 리스트
 hanoi(int(input()), 1, 2, 3) 
 print(len(move)) // 이동 횟수
 print("\n".join([''.join(str(i) for i in row) for row in move])) // 이동 경로 출력
+
+// n = 3
+// 7
+// 1 3
+// 1 2
+// 3 2
+// 1 3
+// 2 1
+// 2 3
+// 1 3
