@@ -17,6 +17,6 @@ for _ in range(n):
 for i in student_list:
   rank = 1
   for j in student_list:
-    if i[0] < j[0] and i[1] < j[1]: // i[0], i[1]은 몸무게 비교, j[0], j[1]은 키 
+    if i[0] < j[0] and i[1] < j[1]: // i[0], i[1]은 몸무게 비교, j[0], j[1]은 키 비교
       rank += 1
   print(rank, end = " ")
