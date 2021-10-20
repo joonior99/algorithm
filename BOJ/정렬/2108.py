@@ -20,7 +20,7 @@ li.sort()
 print(li[n//2]) // 중앙값
  
 cnt_li = Counter(li).most_common() // Counter 자료형은 기본적으로 딕셔너리이며 most_common()는 등장한 횟수를 내림차순으로 정리해서 보여준다
-if len(cnt_li) > 1 and cnt_li[0][1]==cnt_li[1][1]: // 최빈값 2개 이상 두번째로 작은 값
+if len(cnt_li) > 1 and cnt_li[0][1]==cnt_li[1][1]: // 최빈값 2개 이상 두번째로 작은 값, e.g. [('a', 2), ('b', 2), ('c', 1)]
   print(cnt_li[1][0])
 else:
   print(cnt_li[0][0]) // 최빈값이 1개일 때
