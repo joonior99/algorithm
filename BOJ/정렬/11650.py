@@ -21,6 +21,5 @@ li = []
 for _ in range(n):
   x, y = map(int, sys.stdin.readline().split())
   li.append([x, y])
-
-li.sort(key = lambda x: (x[0], x[1])) // x좌표 정렬 후 y좌표 정렬
+li.sort(key=lambda x: (x[0], x[1])) // x좌표 정렬 후 y좌표 정렬
   print(li[i][0], li[i][1])
