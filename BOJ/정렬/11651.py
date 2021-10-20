@@ -20,6 +20,6 @@ n = int(sys.stdin.readline())
 li = []
 for i in range(n):
   li.append(list(map(int, sys.stdin.readline().split())))
-li.sort(key=lambda x: (x[1], x[0]))
+li.sort(key=lambda x: (x[1], x[0])) // y좌표 정렬 후 x좌표 정렬
 for i in li:
   print(i[0], i[1])
