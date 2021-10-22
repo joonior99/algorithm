@@ -17,7 +17,7 @@ def dfs(start):
   for i in range(start, n+1): // [2, 1]과 같이 앞의 숫자가 뒤의 숫자보다 작은 경우를 제외하기위해 start부터 n까지 숫자를 사용한다
     if i not in li:
       li.append(i)
-      dfs(i+1) // 재귀함수를 호출할 때는 i를 이용하여 자신의 다음숫자를 부른다
+      dfs(i+1) // 재귀함수를 호출할 때는 i를 이용하여 자신의 다음 숫자를 부른다
       li.pop()
 dfs(1)
 
