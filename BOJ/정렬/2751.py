@@ -15,4 +15,4 @@ num = sorted(set(result))
 for i in num:
   print(i)
 
-// pypy는 python으로 만든 언어여서 파이썬에서 돌아가면 코드 전환상에는 문제가 없으며, 속도가 더 빠르다는 장점도 있다 
+// pypy는 python으로 만든 언어이므로 파이썬에서 돌아가면 코드 전환상에는 문제가 없으며, 속도가 더 빠르다는 장점도 있다 
