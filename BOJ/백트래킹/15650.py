@@ -8,7 +8,9 @@
 // 문제에서는 [1, 2], [2, 1]과 같은 경우도 중복으로 취급한다
 
 n, m = list(map(int, input().split()))
+
 li = []
+
 def dfs(start):
   if len(li) == m:
     print(''.join(map(str, li)))
