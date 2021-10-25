@@ -13,7 +13,7 @@ li = []
  
 def dfs():
   if len(li) == m:
-    print(' '.join(map(str, li)))
+    print(''.join(map(str, li)))
     return
     
   for i in range(1, n+1):
