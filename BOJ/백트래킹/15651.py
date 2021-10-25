@@ -8,6 +8,7 @@
 // 수열은 사전 순으로 증가하는 순서로 출력해야 한다
 
 n, m = map(int, input().split())
+
 li = []
  
 def dfs():
