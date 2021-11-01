@@ -8,7 +8,7 @@
 // 8 X 8 좌표 평면 상에서 나이트의 위치가 주어졌을 때 나이트가 이동할 수 있는 경우의 수를 출력하는 프로그램을 작성하시오
 // 이때 왕실의 정원에서 행 위치를 표현할 때는 1부터 8로 표현하며, 열 위치를 표현할 때는 a부터 h로 표현한다
 
-// 나이트의 현재 위치가 주어지면 현재 위치에서 이동 경로를 더한 다음, 8 X 8 좌표 평면에 있는지 확인하면 되며 이 과정은 반복문으로 처리할 수 있다
+// 나이트의 현재 위치가 주어지면 현재 위치에서 이동 경로를 더한 다음, 8 X 8 좌표 평면에 있는지 확인하면 되고 이 과정은 반복문으로 처리할 수 있다
 
 // 현재 나이트의 위치 입력받기
 input_data = input() // 예를 들어, a1
@@ -23,7 +23,7 @@ result = 0
 for step in steps: // 이동하고자 하는 위치 확인
   next_row = row + step[0]
   next_column = column + step[1]
-  if next_row >= 1 and next_row <= 8 and next_column >= 1 and next_column <= 8:
+  if next_row >= 1 and next_row <= 8 and next_column >= 1 and next_column <= 8: // 해당 위치로 이동이 가능하다면 카운트 증가
     result += 1
 
 print(result)
