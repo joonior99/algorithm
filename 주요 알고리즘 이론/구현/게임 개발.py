@@ -33,7 +33,7 @@ dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
 
 def turn_left(): // 왼쪽으로 회전
-  global direction // 정수형 변수인 direction 변수가 함수 바깥에서 선언된 전역변수이기 때문에
+  global direction // 정수형 변수인 direction 변수가 함수 바깥에서 선언된 전역변수이기 때문에 global 키워드 사용
   direction -= 1
   if direction == -1:
     direction = 3
