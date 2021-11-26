@@ -20,6 +20,7 @@ for i in range(n): // 한 줄씩 입력받아 확인
 
 print(result)
 
+
 n, m = map(int, input().split())
 
 result = 0
